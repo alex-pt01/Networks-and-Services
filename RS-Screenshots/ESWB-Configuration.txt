@@ -1,0 +1,433 @@
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Connected to Dynamips VM "ESWB" (ID 6, type c3725) - Console port
+Press ENTER to get the prompt.
+ROMMON emulation microcode.
+
+                           Launching IOS image at 0x80008000...
+
+                                                               Smart Init is disabled. IOMEM set to: 5  
+
+               Using iomem percentage: 5
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(21), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 06:32 by prod_rel_team
+
+
+ BIST FAILED...
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+19 FastEthernet interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+1024K bytes of ATA System CompactFlash (Read/Write)
+
+macro name add_vlan
+   ^
+% Invalid input detected at '^' marker.
+
+SETUP: new interface Serial0/0 placed in "shutdown" state
+SETUP: new interface Serial0/1 placed in "shutdown" state
+SETUP: new interface Serial0/2 placed in "shutdown" state
+SETUP: new interface FastEthernet2/0 placed in "shutdown" state
+% There may not be enough space available to collect the complete crashinfo
+% It would be advisable to have 280755 bytes free space on flash:crashinfo
+
+
+Press RETURN to get started!
+
+sslinit fn
+
+*Mar  1 00:00:02.103: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Mar  1 00:00:02.291: %SYS-5-CONFIG_I: Configured from memory by console
+*Mar  1 00:00:02.359: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Mar  1 00:00:02.463: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(21), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 06:32 by prod_rel_team
+*Mar  1 00:00:02.471: %SNMP-5-COLDSTART: SNMP agent on host ESWB is undergoing a cold start
+*Mar  1 00:00:02.479: %PCMCIAFS-5-DIBERR: PCMCIA disk 0 is formatted from a different router or PC. A format in this router is required before an image can be booted from this device
+*Mar  1 00:00:02.955: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Mar  1 00:00
+
+************:02.987: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Mar  1 00:00:03.015: %LINK-5-CHANGED: Interface Serial0/0, changed state to administratively down
+*Mar  1 00:00:03.023: %LINK-5-CHANGED: Interface Serial0/1, changed state to administratively down
+*Mar  1 00:00:03.023: %LINK-5-CHANGED: Interface Serial0/2, changed state to administratively down
+*Mar  1 00:00:03.715: %LINK-5-CHANGED: Interface FastEthernet2/0, changed state to administratively down
+*Mar  1 00:00:03.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Mar  1 00:00:03.987: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Mar  1 00:00:04.015: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to down
+*Mar  1 00:00:04.023: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to down
+*Mar  1 00:00:04.023: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/2, changed state to down
+*Mar  1 00:00:04.339: %LINK-5-CHANGED: Interface Vlan1, changed state to administratively down
+*Mar  1 00:00:04.339: %LINK-3-UPDOWN: Interface FastEthernet1/15, changed state to up
+*Mar  1 00:00:04.343: %LINK-3-UPDOWN: Interface FastEthernet1/14, changed state to up
+*Mar  1 00:00:04.343: %LINK-3-UPDOWN: Interface FastEthernet1/13, changed state to up
+*Mar  1 00:00:04.347: %LINK-3-UPDOWN: Interface FastEthernet1/12, changed state to up
+*Mar  1 00:00:04.347: %LINK-3-UPDOWN: Interface FastEthernet1/11, changed state to up
+*Mar  1 00:00:04.347: %LINK-3-UPDOWN: Interface FastEthernet1/10, changed state to up
+*Mar  1 00:00:04.351: %LINK-3-UPDOWN: Interface FastEthernet1/9, changed state to up
+*Mar  1 00:00:04.351: %LINK-3-UPDOWN: Interface FastEthernet1/8, changed state to up
+*Mar  1 00:00:04.355: %LINK-3-UPDOWN: Interface FastEthernet1/7, changed state to up
+*Mar  1 00:00:04.355: %LINK-3-UPDOWN: Interface FastEthernet1/6, changed state to up
+*Mar  1 00:00:04.355: %LINK-3-UPDOWN: Interface FastEthernet1/5, changed state to up
+*Mar  1 00:00:04.359: %LINK-3-UPDOWN: Interface FastEthernet1/4, changed state to up
+*Mar  1 00:00:04.359: %LINK-3-UPDOWN: Interface FastEthernet1/3, changed state to up
+*Mar  1 00:00:04.363: %LINK-3-UPDOWN: Interface FastEthernet1/2, changed state to up
+*Mar  1 00:00:04.719: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2/0, changed state to down
+*Mar  1 00:00:05.339: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+*Mar  1 00:00:05.339: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/15, changed state to down
+*Mar  1 00:00:05.343: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/14, changed state to down
+*Mar  1 00:00:05.343: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/13, changed state to down
+*Mar  1 00:00:05.347: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/12, changed state to down
+*Mar  1 00:00:05.347: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/11, changed state to down
+*Mar  1 00:00:05.351: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/10, changed state to down
+*Mar  1 00:00:05.351: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/9, changed state to down
+*Mar  1 00:00:05.351: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/8, changed state to down***************************************************
+This is a normal Router with a SW module inside (NM-16ESW)
+It has been preconfigured with hard coded speed and duplex
+
+To create vlans use the command "vlan database" from exec mode
+After creating all desired vlans use "exit" to apply the config
+
+To view existing vlans use the command "show vlan-switch brief"
+
+Warning: You are using an old IOS image for this router.
+Please update the IOS to enable the "macro" command!
+***************************************************************
+
+
+ESWB#
+*Mar  1 00:04:25.871: %SPANTREE-7-RECV_1Q_NON_TRUNK: Received 802.1Q BPDU on non trunk FastEthernet1/0 VLAN1.
+*Mar  1 00:04:25.871: %SPANTREE-7-BLOCK_PORT_TYPE: Blocking FastEthernet1/0 on VLAN1. Inconsistent port type.PVST+: restarted the forward delay timer for FastEthernet1/0
+
+*Mar  1 00:04:26.031: %SPANTREE-7-RECV_1Q_NON_TRUNK: Received 802.1Q BPDU on non trunk FastEthernet1/1 VLAN1.
+*Mar  1 00:04:26.035: %SPANTREE-7-BLOCK_PORT_TYPE: Blocking FastEthernet1/1 on VLAN1. Inconsistent port type.PVST+: restarted the forward delay timer for FastEthernet1/1
+
+ESWB#vlan database
+ESWB(vlan)#vlan 1
+VLAN 1 modified:
+ESWB(vlan)#vlan 2
+VLAN 2 added:
+    Name: VLAN0002
+ESWB(vlan)#vlan 3
+VLAN 3 added:
+    Name: VLAN0003
+ESWB(vlan)#vlan 4
+VLAN 4 added:
+    Name: VLAN0004
+ESWB(vlan)#exit
+APPLY completed.
+Exiting....
+ESWB#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESWB(config)#int f0/0
+ESWB(config-if)#ip address 192.168.11.2 255.255.255.0
+ESWB(config-if)#no shut
+ESWB(config-if)#
+*Mar  1 00:11:28.883: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:11:29.883: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+ESWB(config-if)#int f0/1
+ESWB(config-if)#ip address 192.168.3.2 255.255.255.0
+ESWB(config-if)#no shut
+ESWB(config-if)#int f
+*Mar  1 00:12:18.335: %LINK-3-UPDOWN: Interface FastEthernet0/1, changed state to up
+*Mar  1 00:12:19.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+ESWB(config-if)#int f2/0
+ESWB(config-if)#ip address 192.168.4.2
+% Incomplete command.
+
+ESWB(config-if)#ip address 192.168.4.2 255.255.255.0
+ESWB(config-if)#int range f1/0 - 1
+ESWB(config-if-range)#switchport mode trunk
+ESWB(config-if-range)#witc
+*Mar  1 00:13:43.799: %DTP-5-TRUNKPORTON: Port Fa1/0-1 has become dot1q trunk
+ESWB(config-if-range)#switchport trunk encapsulation dot1q
+ESWB(config-if-range)#int f2/0
+ESWB(config-if)#no shut
+ESWB(config-if)#end
+*Mar  1 00:14:28.915: %LINK-3-UPDOWN: Interface FastEthernet2/0, changed state to up
+*Mar  1 00:14:29.915: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2/0, changed state to up
+ESWB(config-if)#exit
+ESWB(config)#interface Vlan 1
+ESWB(config-if)#ip address 192.168.5.2 255.255.255.0
+ESWB(config-if)#no shut
+ESWB(config-if)#no autostate
+*Mar  1 00:15:23.711: %LINK-3-UPDOWN: Interface Vlan1, changed state to up
+*Mar  1 00:15:24.711: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+ESWB(config-if)#no autostate
+ESWB(config-if)#interface Vlan 2                    
+ESWB(config-if)#
+*Mar  1 00:15:36.107: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan2, changed state to up
+ESWB(config-if)#ip address 192.168.6.2 255.255.255.0
+ESWB(config-if)#no autostate                        
+ESWB(config-if)#no shut                             
+ESWB(config-if)#interface Vlan 3                    
+ESWB(config-if)#ip address 192.168.6.2 255.255.255.0
+*Mar  1 00:15:59.959: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan3, changed state to up
+ESWB(config-if)#ip address 192.168.7.2 255.255.255.0
+ESWB(config-if)#no autostate                        
+ESWB(config-if)#no shut                             
+ESWB(config-if)#interface Vlan 4                    
+ESWB(config-if)#
+*Mar  1 00:16:18.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan4, changed state to up
+ESWB(config-if)#ip address 192.168.8.2 255.255.255.0
+ESWB(config-if)#no autostate                        
+ESWB(config-if)#no shut                             
+ESWB(config-if)#end
+ESWB#i
+*Mar  1 00:16:35.879: %SYS-5-CONFIG_I: Configured from console by console
+ESWB#show ip route
+Default gateway is not set
+
+Host               Gateway           Last Use    Total Uses  Interface
+ICMP redirect cache is empty
+ESWB#show ip route
+Default gateway is not set
+
+Host               Gateway           Last Use    Total Uses  Interface
+ICMP redirect cache is empty
+ESWB#write
+Building configuration...
+[OK]
+ESWB#show ip route
+Default gateway is not set
+
+Host               Gateway           Last Use    Total Uses  Interface
+ICMP redirect cache is empty
+ESWB#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESWB(config)#ip routing
+ESWB(config)#end       
+ESWB#conf t
+*Mar  1 00:18:05.439: %SYS-5-CONFIG_I: Configured from console by console
+ESWB#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+C    192.168.8.0/24 is directly connected, Vlan4
+C    192.168.11.0/24 is directly connected, FastEthernet0/0
+C    192.168.4.0/24 is directly connected, FastEthernet2/0
+C    192.168.5.0/24 is directly connected, Vlan1
+C    192.168.6.0/24 is directly connected, Vlan2
+C    192.168.7.0/24 is directly connected, Vlan3
+C    192.168.3.0/24 is directly connected, FastEthernet0/1
+ESWB#write
+Building configuration...
+[OK]
+ESWB#
+
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+
+ESWB#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESWB(config)#ipv6 unicast-routing
+ESWB(config)#int f0/0
+ESWB(config-if)#ipv6 address 2191:B:B:B::2/64
+ESWB(config-if)#int f0/1
+ESWB(config-if)#ipv6 address 2191:B:B:3::2/64
+ESWB(config-if)#int f2/0                     
+ESWB(config-if)#ipv6 address 2191:B:B:4::2/64
+ESWB(config-if)#int Vlan 1
+ESWB(config-if)#ipv6 address 2191:B:B:5::2/64
+ESWB(config-if)#int Vlan 2                   
+ESWB(config-if)#ipv6 address 2191:B:B:6::2/64
+ESWB(config-if)#int Vlan 3                   
+ESWB(config-if)#ipv6 address 2191:B:B:7::2/64
+ESWB(config-if)#int Vlan 4                   
+ESWB(config-if)#ipv6 address 2191:B:B:8::2/64
+ESWB(config-if)#end
+ESWB#
+*Mar  1 00:37:24.919: %SYS-5-CONFIG_I: Configured from console by console
+ESWB#show ipv6 route
+IPv6 Routing Table - 16 entries
+Codes: C - Connected, L - Local, S - Static, R - RIP, B - BGP
+       U - Per-user Static route
+       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary
+       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2
+       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2
+C   2191:B:B:3::/64 [0/0]
+     via ::, FastEthernet0/1
+L   2191:B:B:3::2/128 [0/0]
+     via ::, FastEthernet0/1
+C   2191:B:B:4::/64 [0/0]
+     via ::, FastEthernet2/0
+L   2191:B:B:4::2/128 [0/0]
+     via ::, FastEthernet2/0
+C   2191:B:B:5::/64 [0/0]
+     via ::, Vlan1
+L   2191:B:B:5::2/128 [0/0]
+     via ::, Vlan1
+C   2191:B:B:6::/64 [0/0]
+     via ::, Vlan2
+L   2191:B:B:6::2/128 [0/0]
+     via ::, Vlan2
+C   2191:B:B:7::/64 [0/0]
+     via ::, Vlan3
+L   2191:B:B:7::2/128 [0/0]
+     via ::, Vlan3
+C   2191:B:B:8::/64 [0/0]
+     via ::, Vlan4
+L   2191:B:B:8::2/128 [0/0]
+     via ::, Vlan4
+C   2191:B:B:B::/64 [0/0]
+     via ::, FastEthernet0/0
+L   2191:B:B:B::2/128 [0/0]
+     via ::, FastEthernet0/0
+L   FE80::/10 [0/0]
+     via ::, Null0
+L   FF00::/8 [0/0]
+     via ::, Null0
+ESWB#write
+Building configuration...
+[OK]
+ESWB#
+
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+
+ESWB#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.11.2    YES NVRAM  up                    up      
+Serial0/0                  unassigned      YES NVRAM  administratively down down    
+FastEthernet0/1            192.168.3.2     YES NVRAM  up                    up      
+Serial0/1                  unassigned      YES NVRAM  administratively down down    
+Serial0/2                  unassigned      YES NVRAM  administratively down down    
+FastEthernet1/0            unassigned      YES unset  up                    up      
+FastEthernet1/1            unassigned      YES unset  up                    up      
+FastEthernet1/2            unassigned      YES unset  up                    down    
+FastEthernet1/3            unassigned      YES unset  up                    down    
+FastEthernet1/4            unassigned      YES unset  up                    down    
+FastEthernet1/5            unassigned      YES unset  up                    down    
+FastEthernet1/6            unassigned      YES unset  up                    down    
+FastEthernet1/7            unassigned      YES unset  up                    down    
+FastEthernet1/8            unassigned      YES unset  up                    down    
+FastEthernet1/9            unassigned      YES unset  up                    down    
+FastEthernet1/10           unassigned      YES unset  up                    down    
+FastEthernet1/11           unassigned      YES unset  up                    down    
+FastEthernet1/12           unassigned      YES unset  up                    down    
+FastEthernet1/13           unassigned      YES unset  up                    down    
+FastEthernet1/14           unassigned      YES unset  up                    down    
+FastEthernet1/15           unassigned      YES unset  up                    down    
+FastEthernet2/0            192.168.4.2     YES NVRAM  up                    up      
+Vlan1                      192.168.5.2     YES NVRAM  up                    up      
+Vlan2                      192.168.6.2     YES NVRAM  up                    up      
+Vlan3                      192.168.7.2     YES NVRAM  up                    up      
+Vlan4                      192.168.8.2     YES NVRAM  up                    up      
+ESWB#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESWB(config)#router ospf 1
+ESWB(config-router)#network 192.168.11.0 0.0.0.255 area 0
+ESWB(config-router)#network 192.168.3.0 0.0.0.255 area 0 
+ESWB(config-router)#network 192.168.3.0 0.0.0.255 area 0
+*Mar  1 00:10:25.423: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.2 on FastEthernet0/1 from LOADING to FULL, Loading Done
+ESWB(config-router)#network 192.168.4.0 0.0.0.255 area 0
+ESWB(config-router)#network 192.168.5.0 0.0.0.255 area 0
+ESWB(config-router)#network 192.168.6.0 0.0.0.255 area 0
+ESWB(config-router)#network 192.168.7.0 0.0.0.255 area 0
+ESWB(config-router)#network 192.168.7.0 0.0.0.255 area 0
+*Mar  1 00:10:42.363: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.2 on Vlan1 from LOADING to FULL, Loading Done
+ESWB(config-router)#network 192.168.8.0 0.0.0.255 area 0
+*Mar  1 00:10:46.431: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.2 on Vlan2 from LOADING to FULL, Loading Done
+ESWB(config-router)#network 192.168.8.0 0.0.0.255 area 0
+ESWB(config-router)#
+*Mar  1 00:10:49.699: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.2 on Vlan3 from LOADING to FULL, Loading Done
+ESWB(config-router)#end
+*Mar  1 00:10:54.647: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.2 on Vlan4 from LOADING to FULL, Loading Done
+ESWB(config-router)#end
+ESWB#
+*Mar  1 00:10:57.615: %SYS-5-CONFIG_I: Configured from console by console
+ESWB#
+*Mar  1 00:12:55.503: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.11.1 on FastEthernet0/0 from LOADING to FULL, Loading Done
+ESWB#write
+Building configuration...
+[OK]
+ESWB#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+ESWB(config)#ipv6 router ospf 1
+ESWB(config-rtr)#router-id 3.3.3.3
+ESWB(config-rtr)#int f0/1
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#int f0/1          
+*Mar  1 00:26:35.487: %OSPFv3-5-ADJCHG: Process 1, Nbr 2.2.2.2 on FastEthernet0/1 from LOADING to FULL, Loading Done
+ESWB(config-if)#int f0/0
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#
+*Mar  1 00:26:47.227: %OSPFv3-5-ADJCHG: Process 1, Nbr 1.1.1.1 on FastEthernet0/0 from LOADING to FULL, Loading Done
+ESWB(config-if)#int f2/0          
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#int Vlan 1        
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#int Vlan 2        
+ESWB(config-if)#
+*Mar  1 00:27:03.327: %OSPFv3-5-ADJCHG: Process 1, Nbr 2.2.2.2 on Vlan1 from LOADING to FULL, Loading Done
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#int Vlan          
+*Mar  1 00:27:08.003: %OSPFv3-5-ADJCHG: Process 1, Nbr 2.2.2.2 on Vlan2 from LOADING to FULL, Loading Done
+ESWB(config-if)#int Vlan 3
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#int Vlan 4        
+*Mar  1 00:27:12.239: %OSPFv3-5-ADJCHG: Process 1, Nbr 2.2.2.2 on Vlan3 from LOADING to FULL, Loading Done
+ESWB(config-if)#int Vlan 4
+ESWB(config-if)#ipv6 ospf 1 area 0
+ESWB(config-if)#end
+*Mar  1 00:27:15.535: %OSPFv3-5-ADJCHG: Process 1, Nbr 2.2.2.2 on Vlan4 from LOADING to FULL, Loading Done
+ESWB(config-if)#end
+ESWB#
+*Mar  1 00:27:18.427: %SYS-5-CONFIG_I: Configured from console by console
+ESWB#write
+Building configuration...
+[OK]
+ESWB#

@@ -1,0 +1,481 @@
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Connected to Dynamips VM "R3" (ID 4, type c3725) - Console port
+Press ENTER to get the prompt.
+ROMMON emulation microcode.
+
+                           Launching IOS image at 0x80008000...
+
+                                                               Smart Init is disabled. IOMEM set to: 5  
+
+               Using iomem percentage: 5
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(21), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 06:32 by prod_rel_team
+
+
+ BIST FAILED...
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+SETUP: new interface FastEthernet0/0 placed in "shutdown" state
+SETUP: new interface Serial0/0 placed in "shutdown" state
+SETUP: new interface FastEthernet0/1 placed in "shutdown" state
+SETUP: new interface Serial0/1 placed in "shutdown" state
+SETUP: new interface Serial0/2 placed in "shutdown" state
+SETUP: new interface FastEthernet1/0 placed in "shutdown" state
+SETUP: new interface Serial2/0 placed in "shutdown" state
+SETUP: new interface Serial2/1 placed in "shutdown" state
+SETUP: new interface Serial2/2 placed in "shutdown" state
+SETUP: new interface Serial2/3 placed in "shutdown" state
+% Crashinfo may not be recovered at flash:crashinfo
+% This file system device reports an error
+
+
+Press RETURN to get started!
+
+sslinit fn
+
+*Mar  1 00:00:02.479: %SW_VLAN-4-IFS_FAILURE: VLAN manager encountered file operation error: call = ifs_open/read / code = 3588 (No device available)
+    / bytes transfered = 0
+*Mar  1 00:00:02.491: %LINEPROTO-5-UPDOWN: Line protocol on Interface VoIP-Null0, changed state to up
+*Mar  1 00:00:02.575: %SYS-5-CONFIG_I: Configured from memory by console
+*Mar  1 00:00:02.655: %LINEPROTO-5-UPDOWN: Line protocol on Interface IPv6-mpls, changed state to up
+*Mar  1 00:00:02.819: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, 3700 Software (C3725-ADVIPSERVICESK9-M), Version 12.4(21), RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Thu 10-Jul-08 06:32 by prod_rel_team
+*Mar  1 00:00:02.831: %SNMP-5-COLDSTART: SNMP agent on host R3 is undergoing a cold start
+*Mar  1 00:00:03.219: %LINK-5-CHANGED: Interface FastEthernet0/0, changed state to administratively down
+*Mar  1 00:00:03.267: %LINK-5-CHANGED: Interface FastEthernet0/1, changed state to administratively down
+*Mar  1 00:00:03.303: %LINK-5-CHANGED: Interface Serial0/0, changed state to administratively down
+*Mar  1 00:00:03.315: %LINK-5-CHANGED: Interface Serial0/1, changed state to administratively down
+*Mar  1 00:00:03.315: %LINK-5-CHANGED: Interface Serial0/2, changed state to administratively down
+*Mar  1 00:00:03.319: %LINK-5-CHANGED: Interface FastEthernet1/0, changed state to administratively down
+*Mar  1 00:00:03.327: %LINK-5-CHANGED: Interface Serial2/0, changed state to administratively down
+*Mar  1 00:00:03.327: %LINK-5-CHANGED: Interface Serial2/1, changed state to administratively down
+*Mar  1 00:00:03.327: %LINK-5-CHANGED: Interface Serial2/2, changed state to administratively down
+*Mar  1 00:00:03.331: %LINK-5-CHANGED: Interface Serial2/3, changed state to administratively down
+*Mar  1 00:00:04.219: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to down
+*Mar  1 00:00:04.267: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+*Mar  1 00:00:04.303: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to down
+*Mar  1 00:00:04.315: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/1, changed state to down
+*Mar  1 00:00:04.315: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/2, changed state to down
+*Mar  1 00:00:04.319: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet1/0, changed state to down
+*Mar  1 00:00:04.327: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial2/0, changed state to down
+*Mar  1 00:00:04.327: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial2/1, changed state to down
+*Mar  1 00:00:04.327: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial2/2, changed state to down
+*Mar  1 00:00:04.331: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial2/3, changed state to down
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#ip routing
+R3(config)#ipv6 unicast-routing
+R3(config)#int f0/0
+R3(config-if)#no shut
+R3(config-if)#i 
+*Mar  1 00:11:22.143: %LINK-3-UPDOWN: Interface FastEthernet0/0, changed state to up
+*Mar  1 00:11:23.143: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/0, changed state to up
+R3(config-if)#ip address 192.168.1.1 255.255.255.0
+R3(config-if)#ipv6 address 2191:B:B:1::1/64
+R3(config-if)#end
+R3#
+*Mar  1 00:12:07.311: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#show ipv6 route
+IPv6 Routing Table - 4 entries
+Codes: C - Connected, L - Local, S - Static, R - RIP, B - BGP
+       U - Per-user Static route
+       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary
+       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2
+       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2
+C   2191:B:B:1::/64 [0/0]
+     via ::, FastEthernet0/0
+L   2191:B:B:1::1/128 [0/0]
+     via ::, FastEthernet0/0
+L   FE80::/10 [0/0]
+     via ::, Null0
+L   FF00::/8 [0/0]
+     via ::, Null0
+R3#write
+Building configuration...
+[OK]
+R3#
+
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+----------------------------
+
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#int s0/0
+R3(config-if)#ip address 192.168.12.2 255.255.255.0
+R3(config-if)#ipv6 address 2191:B:B:C::2/64
+R3(config-if)#keepalive
+R3(config-if)#no shut
+R3(config-if)#
+*Mar  1 00:04:28.431: %LINK-3-UPDOWN: Interface Serial0/0, changed state to up
+R3(config-if)#
+*Mar  1 00:04:29.439: %LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to up
+R3(config-if)#end
+R3#sh
+*Mar  1 00:05:27.267: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.1.1     YES NVRAM  up                    up      
+Serial0/0                  192.168.12.2    YES manual up                    up      
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
+Serial0/1                  unassigned      YES NVRAM  administratively down down    
+Serial0/2                  unassigned      YES NVRAM  administratively down down    
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+Serial2/0                  unassigned      YES NVRAM  administratively down down    
+Serial2/1                  unassigned      YES NVRAM  administratively down down    
+Serial2/2                  unassigned      YES NVRAM  administratively down down    
+Serial2/3                  unassigned      YES NVRAM  administratively down down    
+R3#write
+Building configuration...
+[OK]
+R3#
+
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+-------------------------------
+
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.1.1.0/30 is subnetted, 1 subnets
+C       192.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#show ip interface brief
+             ^
+% Invalid input detected at '^' marker.
+
+R3(config)#end                    
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.1.1.0/30 is subnetted, 1 subnets
+C       192.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#
+*Mar  1 00:32:44.843: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.1.1     YES NVRAM  up                    up      
+Serial0/0                  192.1.1.254     YES NVRAM  up                    up      
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
+Serial0/1                  unassigned      YES NVRAM  administratively down down    
+Serial0/2                  unassigned      YES NVRAM  administratively down down    
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+Serial2/0                  unassigned      YES NVRAM  administratively down down    
+Serial2/1                  unassigned      YES NVRAM  administratively down down    
+Serial2/2                  unassigned      YES NVRAM  administratively down down    
+Serial2/3                  unassigned      YES NVRAM  administratively down down    
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#router rip
+R3(config-router)#network 191.1.1.252
+R3(config-router)#network 192.168.1.0
+R3(config-router)#end
+R3#
+*Mar  1 00:36:31.951: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip route          
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.1.1.0/30 is subnetted, 1 subnets
+C       192.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#write
+Building configuration...
+[OK]
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.1.1.0/30 is subnetted, 1 subnets
+C       192.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.1.1     YES NVRAM  up                    up      
+Serial0/0                  192.1.1.254     YES NVRAM  up                    up      
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
+Serial0/1                  unassigned      YES NVRAM  administratively down down    
+Serial0/2                  unassigned      YES NVRAM  administratively down down    
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+Serial2/0                  unassigned      YES NVRAM  administratively down down    
+Serial2/1                  unassigned      YES NVRAM  administratively down down    
+Serial2/2                  unassigned      YES NVRAM  administratively down down    
+Serial2/3                  unassigned      YES NVRAM  administratively down down    
+R3#conf t                 
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#int s0/0
+R3(config-if)#ip address 191.1.1.254 255.255.255.252
+R3(config-if)#end
+R3#
+*Mar  1 00:39:56.819: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip route          
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+R3#write        
+Building configuration...
+[OK]
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#ip route 0.0.0.0 0.0.0.0 191.1.1.253
+R3(config)#end
+R3#show ip route
+*Mar  1 00:43:23.739: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 191.1.1.253 to network 0.0.0.0
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+R    192.168.9.0/24 [120/1] via 191.1.1.253, 00:00:10, Serial0/0
+R    192.168.4.0/24 [120/1] via 191.1.1.253, 00:00:10, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+S*   0.0.0.0/0 [1/0] via 191.1.1.253
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 191.1.1.253 to network 0.0.0.0
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+R    192.168.9.0/24 [120/1] via 191.1.1.253, 00:00:12, Serial0/0
+R    192.168.4.0/24 [120/1] via 191.1.1.253, 00:00:12, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+S*   0.0.0.0/0 [1/0] via 191.1.1.253
+R3#ping 192.168.3.2
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.3.2, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R3#ping 192.168.2.3
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.2.3, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R3#ping 191.1.1.253
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 191.1.1.253, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 16/20/32 ms
+R3#ping 191.1.1.254
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 191.1.1.254, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 20/40/100 ms
+R3#ping 192.168.1.2
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.1.2, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 4/15/36 ms
+R3#ping 192.168.9.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.9.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R3#show ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 191.1.1.253 to network 0.0.0.0
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+R    192.168.9.0/24 [120/1] via 191.1.1.253, 00:00:09, Serial0/0
+R    192.168.4.0/24 [120/1] via 191.1.1.253, 00:00:09, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+S*   0.0.0.0/0 [1/0] via 191.1.1.253
+R3#ping 192.168.9.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.9.1, timeout is 2 seconds:
+.....
+Success rate is 0 percent (0/5)
+R3#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#no router rip
+R3(config)#end          
+R3#ping 192.168.9.1
+*Mar  1 00:53:31.815: %SYS-5-CONFIG_I: Configured from console by console
+R3#show ip route   
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 191.1.1.253 to network 0.0.0.0
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+S*   0.0.0.0/0 [1/0] via 191.1.1.253
+R3#ping 191.1.1.253
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 191.1.1.253, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 12/20/32 ms
+R3#show ip route   
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is 191.1.1.253 to network 0.0.0.0
+
+     191.1.0.0/30 is subnetted, 1 subnets
+C       191.1.1.252 is directly connected, Serial0/0
+C    192.168.1.0/24 is directly connected, FastEthernet0/0
+S*   0.0.0.0/0 [1/0] via 191.1.1.253
+R3#writ         
+Building configuration...
+[OK]
+R3#

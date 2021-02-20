@@ -1,0 +1,24 @@
+Welcome to Virtual PC Simulator, version 0.6.1
+Dedicated to Daling.
+Build time: Apr  3 2018 13:45:00
+Copyright (c) 2007-2014, Paul Meng (mirnshi@gmail.com)
+All rights reserved.
+
+VPCS is free software, distributed under the terms of the "BSD" licence.
+Source code and license can be found at vpcs.sf.net.
+For more information, please visit wiki.freecode.com.cn.
+
+Press '?' to get help.
+
+Executing the startup file
+
+
+PC0> ip 100.100.100.2 255.255.255.0 100.100.100.1
+Checking for duplicate address...
+PC1 : 100.100.100.2 255.255.255.0 gateway 100.100.100.1
+
+PC0> save
+Saving startup configuration to startup.vpc
+.  done
+
+PC0> 

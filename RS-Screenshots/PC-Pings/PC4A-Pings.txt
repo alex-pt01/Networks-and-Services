@@ -1,0 +1,163 @@
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+
+Welcome to Virtual PC Simulator, version 0.6.1
+Dedicated to Daling.
+Build time: Apr  3 2018 13:45:00
+Copyright (c) 2007-2014, Paul Meng (mirnshi@gmail.com)
+All rights reserved.
+
+VPCS is free software, distributed under the terms of the "BSD" licence.
+Source code and license can be found at vpcs.sf.net.
+For more information, please visit wiki.freecode.com.cn.
+
+Press '?' to get help.
+
+Executing the startup file
+
+
+Checking for duplicate address...
+PC1 : 192.168.4.3 255.255.255.0 gateway 192.168.4.2
+
+PC1 : 2191:b:b:4:2050:79ff:fe66:680d/64 
+
+PC4A> ping 2001:2001:2001:2001:2050:79ff:fe66:6802
+
+2001:2001:2001:2001:2050:79ff:fe66:6802 icmp6_seq=1 timeout
+2001:2001:2001:2001:2050:79ff:fe66:6802 icmp6_seq=2 ttl=58 time=43.467 ms
+2001:2001:2001:2001:2050:79ff:fe66:6802 icmp6_seq=3 ttl=58 time=49.871 ms
+2001:2001:2001:2001:2050:79ff:fe66:6802 icmp6_seq=4 ttl=58 time=49.885 ms
+2001:2001:2001:2001:2050:79ff:fe66:6802 icmp6_seq=5 ttl=58 time=39.883 ms
+
+PC4A> ping 100.100.100.2
+84 bytes from 100.100.100.2 icmp_seq=1 ttl=61 time=49.501 ms                   
+84 bytes from 100.100.100.2 icmp_seq=2 ttl=61 time=44.621 ms                   
+84 bytes from 100.100.100.2 icmp_seq=3 ttl=61 time=34.426 ms                   
+84 bytes from 100.100.100.2 icmp_seq=4 ttl=61 time=45.215 ms                   
+84 bytes from 100.100.100.2 icmp_seq=5 ttl=61 time=54.466 ms                   
+                                                                               
+PC4A> ping 192.168.1.2                                                         
+192.168.1.2 icmp_seq=1 timeout                                                 
+84 bytes from 192.168.1.2 icmp_seq=2 ttl=62 time=27.627 ms                     
+84 bytes from 192.168.1.2 icmp_seq=3 ttl=62 time=24.730 ms
+84 bytes from 192.168.1.2 icmp_seq=4 ttl=62 time=34.707 ms
+84 bytes from 192.168.1.2 icmp_seq=5 ttl=62 time=24.222 ms
+
+PC4A> ping 192.168.2.2
+84 bytes from 192.168.2.2 icmp_seq=1 ttl=62 time=29.615 ms
+84 bytes from 192.168.2.2 icmp_seq=2 ttl=62 time=24.179 ms
+84 bytes from 192.168.2.2 icmp_seq=3 ttl=62 time=24.235 ms
+84 bytes from 192.168.2.2 icmp_seq=4 ttl=62 time=24.375 ms
+84 bytes from 192.168.2.2 icmp_seq=5 ttl=62 time=24.671 ms
+
+PC4A> ping 192.168.3.3
+84 bytes from 192.168.3.3 icmp_seq=1 ttl=63 time=18.987 ms
+84 bytes from 192.168.3.3 icmp_seq=2 ttl=63 time=14.843 ms
+84 bytes from 192.168.3.3 icmp_seq=3 ttl=63 time=14.410 ms
+84 bytes from 192.168.3.3 icmp_seq=4 ttl=63 time=14.987 ms
+84 bytes from 192.168.3.3 icmp_seq=5 ttl=63 time=14.549 ms
+
+PC4A> ping 192.168.5.3
+84 bytes from 192.168.5.3 icmp_seq=1 ttl=62 time=29.064 ms
+84 bytes from 192.168.5.3 icmp_seq=2 ttl=62 time=24.714 ms
+84 bytes from 192.168.5.3 icmp_seq=3 ttl=62 time=24.942 ms
+84 bytes from 192.168.5.3 icmp_seq=4 ttl=62 time=24.721 ms
+84 bytes from 192.168.5.3 icmp_seq=5 ttl=62 time=14.864 ms
+
+PC4A> ping 192.168.6.3
+84 bytes from 192.168.6.3 icmp_seq=1 ttl=62 time=29.961 ms
+84 bytes from 192.168.6.3 icmp_seq=2 ttl=62 time=24.836 ms
+84 bytes from 192.168.6.3 icmp_seq=3 ttl=62 time=24.834 ms
+84 bytes from 192.168.6.3 icmp_seq=4 ttl=62 time=24.800 ms
+84 bytes from 192.168.6.3 icmp_seq=5 ttl=62 time=24.728 ms
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 ttl=58 time=27.500 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 timeout
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 timeout
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 timeout
+
+PC4A> ping 2191:b:b:2:2050:79ff:fe66:680b
+
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=1 ttl=60 time=37.673 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=2 ttl=60 time=30.165 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=3 ttl=60 time=30.141 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=4 ttl=60 time=29.788 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=5 ttl=60 time=29.474 ms
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 timeout
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f -w 10000
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 timeout
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 ttl=58 time=23.435 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 ttl=58 time=19.630 ms
+
+PC4A> ping 2191:b:b:1:2050:79ff:fe66:680f         
+
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=1 ttl=58 time=33.398 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=2 ttl=58 time=29.957 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=3 ttl=58 time=29.649 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=4 ttl=58 time=29.471 ms
+2191:b:b:1:2050:79ff:fe66:680f icmp6_seq=5 ttl=58 time=29.241 ms
+
+PC4A> ping 2191:b:b:2:2050:79ff:fe66:680b
+
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=1 timeout
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=2 ttl=60 time=36.726 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=3 ttl=60 time=39.261 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=4 ttl=60 time=39.526 ms
+2191:b:b:2:2050:79ff:fe66:680b icmp6_seq=5 ttl=60 time=40.014 ms
+
+PC4A> ping 2191:b:b:3:2050:79ff:fe66:6801
+                                                                               
+2191:b:b:3:2050:79ff:fe66:6801 icmp6_seq=1 ttl=60 time=21.747 ms               
+2191:b:b:3:2050:79ff:fe66:6801 icmp6_seq=2 ttl=60 time=9.876 ms
+2191:b:b:3:2050:79ff:fe66:6801 icmp6_seq=3 ttl=60 time=29.527 ms
+2191:b:b:3:2050:79ff:fe66:6801 icmp6_seq=4 ttl=60 time=29.261 ms
+2191:b:b:3:2050:79ff:fe66:6801 icmp6_seq=5 ttl=60 time=30.182 ms
+
+PC4A> ping 2191:b:b:5:2050:79ff:fe66:6803
+
+2191:b:b:5:2050:79ff:fe66:6803 icmp6_seq=1 ttl=60 time=28.597 ms
+2191:b:b:5:2050:79ff:fe66:6803 icmp6_seq=2 ttl=60 time=59.567 ms
+2191:b:b:5:2050:79ff:fe66:6803 icmp6_seq=3 ttl=60 time=30.030 ms
+2191:b:b:5:2050:79ff:fe66:6803 icmp6_seq=4 ttl=60 time=29.774 ms
+2191:b:b:5:2050:79ff:fe66:6803 icmp6_seq=5 ttl=60 time=29.578 ms
+
+PC4A> ping 2191:b:b:6:2050:79ff:fe66:6805
+
+2191:b:b:6:2050:79ff:fe66:6805 icmp6_seq=1 ttl=60 time=36.681 ms
+2191:b:b:6:2050:79ff:fe66:6805 icmp6_seq=2 ttl=60 time=20.039 ms
+2191:b:b:6:2050:79ff:fe66:6805 icmp6_seq=3 ttl=60 time=30.151 ms
+2191:b:b:6:2050:79ff:fe66:6805 icmp6_seq=4 ttl=60 time=19.839 ms
+2191:b:b:6:2050:79ff:fe66:6805 icmp6_seq=5 ttl=60 time=29.190 ms
+
+PC4A> 
